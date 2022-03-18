@@ -13,3 +13,5 @@
 Запуск игры
 
 <pre><code>ruby game_hangman.rb</code></pre>
+
+ruby version: 3.0
