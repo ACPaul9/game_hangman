@@ -9,6 +9,7 @@ end
 
 require_relative "lib/console_interface"
 require_relative "lib/game"
+require 'colorize'
 
 puts "Приветствую! Сыграйте в игру виселица"
 word = File.readlines("#{__dir__}/data/words.txt",encoding: "UTF-8" ,chomp: true).sample
